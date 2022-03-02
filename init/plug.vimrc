@@ -26,7 +26,7 @@ Plug 'mhinz/vim-signify'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'antoinemadec/FixCursorHold.nvim'
-"Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 " PDF
 "$Plug 'marioortizmanero/adoc-pdf-live.nvim'

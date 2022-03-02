@@ -41,3 +41,11 @@ map <C-f> :Telescope find_files<CR>
 map <C-n> :Telescope grep_string<CR>
 
 map <Tab> :NERDTreeToggle<CR>
+
+" Moving a line of code
+"nnoremap ,<Up>	 :<C-u>silent! move-2<CR>==
+"nnoremap ,<Down> :<C-u>silent! move+<CR>==
+nnoremap <silent><c-j> :move-2<CR>
+nnoremap <silent><c-k> :move-2<CR>
+
+
