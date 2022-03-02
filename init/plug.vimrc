@@ -2,7 +2,7 @@ call plug#begin()
 
 
 " UI
-Plug 'shaunsingh/nord.nvim', { 'as': 'nord' }
+"Plug 'shaunsingh/nord.nvim', { 'as': 'nord' }
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -15,7 +15,7 @@ Plug 'glepnir/dashboard-nvim'
 " Markdown preview
 Plug 'ellisonleao/glow.nvim'
 Plug 'akinsho/toggleterm.nvim'
-Plug 'tpope/vim-surround'
+"Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -26,8 +26,10 @@ Plug 'mhinz/vim-signify'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'antoinemadec/FixCursorHold.nvim'
-Plug 'nvim-lua/plenary.nvim'
+"Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+" PDF
+"$Plug 'marioortizmanero/adoc-pdf-live.nvim'
 
 " 42 school
 Plug 'pbondoer/vim-42header'
