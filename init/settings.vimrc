@@ -45,7 +45,16 @@ map <Tab> :NERDTreeToggle<CR>
 " Moving a line of code
 "nnoremap ,<Up>	 :<C-u>silent! move-2<CR>==
 "nnoremap ,<Down> :<C-u>silent! move+<CR>==
-nnoremap <silent><c-j> :move-2<CR>
-nnoremap <silent><c-k> :move-2<CR>
+nnoremap <silent><s-Up> :move-2<CR>
+nnoremap  <silent><s-Down> :move+<CR>
+" change movement!
+" The Theo's way X)
 
-
+" left
+noremap ; l 
+" up
+noremap l k
+" down
+noremap k j
+" right
+noremap j h
