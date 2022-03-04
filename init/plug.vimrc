@@ -13,7 +13,7 @@ Plug 'glepnir/dashboard-nvim'
 
 " Functionalities
 " Markdown preview
-Plug 'ellisonleao/glow.nvim'
+" Plug 'ellisonleao/glow.nvim'
 Plug 'akinsho/toggleterm.nvim'
 "Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
@@ -30,6 +30,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 " PDF
 "$Plug 'marioortizmanero/adoc-pdf-live.nvim'
+" Template
+Plug 'tibabit/vim-templates'
 
 " 42 school
 Plug 'pbondoer/vim-42header'
