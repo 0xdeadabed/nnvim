@@ -34,7 +34,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'tibabit/vim-templates'
 
 " 42 school
-Plug 'pbondoer/vim-42header'
+"Plug 'pbondoer/vim-42header'
 Plug 'vim-syntastic/syntastic'
 
 call plug#end()

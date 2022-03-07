@@ -61,4 +61,7 @@ noremap j h
 
 
 """C++ preferences"""
+let g:tmpl_search_paths = ['~/templates']
+let g:tmpl_author_email = 'wubbalubba@dubdub'
+let g:tmpl_author_name = 'hypn0x'
 
