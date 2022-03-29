@@ -12,11 +12,7 @@ Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'glepnir/dashboard-nvim'
 
 " Functionalities
-" Markdown preview
-" Plug 'ellisonleao/glow.nvim'
-Plug 'akinsho/toggleterm.nvim'
-"Plug 'tpope/vim-surround'
-Plug 'tpope/vim-commentary'
+Plug 'ellisonleao/glow.nvim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
@@ -28,13 +24,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'antoinemadec/FixCursorHold.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-" PDF
-"$Plug 'marioortizmanero/adoc-pdf-live.nvim'
-" Template
-Plug 'tibabit/vim-templates'
-
-" 42 school
-"Plug 'pbondoer/vim-42header'
+" Plug 'tibabit/vim-templates'
 Plug 'vim-syntastic/syntastic'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'tanvirtin/vgit.nvim'
 
 call plug#end()

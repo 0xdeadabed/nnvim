@@ -65,3 +65,7 @@ let g:tmpl_search_paths = ['~/templates']
 let g:tmpl_author_email = 'wubbalubba@dubdub'
 let g:tmpl_author_name = 'hypn0x'
 
+"""Vgit"""
+lua << EOF
+require('vgit').setup()
+EOF
